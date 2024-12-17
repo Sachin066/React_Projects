@@ -31,13 +31,13 @@ export default function Home() {
 
 // copy 
 
-    const hendelCopy = () =>{
-        if (inputText.trim() !== "") {
-            setDisplayText([...displayText, inputText.toLowerCase()]); 
-            setInputText(""); 
-          }
+    // const hendelCopy = () =>{
+    //     if (inputText.trim() !== "") {
+    //         setDisplayText([...displayText, inputText.toLowerCase()]); 
+    //         setInputText(""); 
+    //       }
         
-    }
+    // }
 
 
     const handleClearClick = () => {
